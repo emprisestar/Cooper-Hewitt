@@ -14,7 +14,9 @@
 #main-trans2 {
 	/* padding: 0 10px 10px 10px; */
 	position:absolute;
+	background: none repeat scroll 0 0 #EBEBEB;
 	bottom:0;
+	opacity:0.86;
 	left:0;
 	width:100%;
 	height:<length>;	
