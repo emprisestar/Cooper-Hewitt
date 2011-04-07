@@ -54,7 +54,9 @@ body.medium #footer-bg2 {background: url(../images/backgrounds/style2/footer-bg2
 body.medium .feature-module {color: #333;background: url(../images/backgrounds/style2/feature-underlay.png) 100% 100% no-repeat;}
 
 /* Backgrounds - Simple */
-body.simple #bg-tile {background: #EBEBEB url(../images/backgrounds/style2/bg-tile.png) 50% -115px repeat-x;}
+body.simple #bg-tile {
+	padding-bottom:50px;
+	background: #EBEBEB url(../images/backgrounds/style2/bg-tile.png) 50% -115px repeat-x;}
 body.simple #header .wrapper {background: url(../images/backgrounds/style2/main-trans.png) 0 0;}
 body.simple .feature-module {color: #333;}
 body.simple #horiz-menu ul, body.simple #horiz-menu .drop-top {background-image: none;}
