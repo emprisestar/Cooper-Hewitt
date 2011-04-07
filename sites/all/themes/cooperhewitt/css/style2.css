@@ -15,6 +15,7 @@
 	/* padding: 0 10px 10px 10px; */
 	position:absolute;
 	background: none repeat scroll 0 0 #EBEBEB;
+	border-top: 1px solid #1F1F1F;
 	bottom:0;
 	opacity:0.86;
 	left:0;
