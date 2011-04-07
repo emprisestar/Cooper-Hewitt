@@ -282,10 +282,24 @@
 	</div>
 	<?php endif; ?>	
 	<!--End Main Bottom-->
+
+	<!--Begin Bottom Advertisment-->
+	<?php if ($advertisement2) : ?>
+	<div id="bottom-advertisement">
+		<div class="wrapper">
+			<?php print $advertisement2; ?>
+		</div>
+	</div>
+	<?php endif; ?>
+	<!--End Bottom Advertisment-->	
+	<?php if ($debug) : ?>
+	<div id="debug-mod"><?php print $debug; ?></div>
+	<?php endif; ?>
+	</div></div>
 	<!--Begin Footer-->
 	<?php if ($footer123 or theme_get_setting(show_copyright) or theme_get_setting(show_topbutton)) : ?>
-	<div class="wrapper">
-		<div id="main-trans2">
+	<div id="main-trans2">
+		<div class="wrapper">
 			<div id="footer">
 				<div id="footer-bg"><div id="footer-bg2">
 					<?php if ($footer123) : ?>
@@ -318,20 +332,6 @@
 	</div>
 	<?php endif; ?>
 	<!--End Footer-->
-	<!--Begin Bottom Advertisment-->
-	<?php if ($advertisement2) : ?>
-	<div id="bottom-advertisement">
-		<div class="wrapper">
-			<?php print $advertisement2; ?>
-		</div>
-	</div>
-	<?php endif; ?>
-	<!--End Bottom Advertisment-->	
-	<?php if ($debug) : ?>
-	<div id="debug-mod"><?php print $debug; ?></div>
-	<?php endif; ?>
-	</div></div>
-	
 	<?php print $closure;?>
 	
 	</body>

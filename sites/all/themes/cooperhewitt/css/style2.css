@@ -11,7 +11,28 @@
 
 /* Backgrounds */
 #main-trans, #main-trans2, #main-trans-top, #main-trans-bottom {background: url(../images/backgrounds/style2/main-trans.png) 0 0;}
-#main-trans2 {padding: 0 10px 10px 10px;}
+#main-trans2 {
+	/* padding: 0 10px 10px 10px; */
+	position:absolute;
+	bottom:0;
+	left:0;
+	width:100%;
+	height:<length>;	
+}
+
+@media screen{
+ body>div#main-trans2{
+  position: fixed;
+ }
+}
+
+* html body{
+  overflow:hidden;
+ } 
+ * html div#bg-title{
+  height:100%;
+  overflow:auto;
+ }
 .colmask, #mainmodules7 {background: #fff;}
 
 /* Backgrounds - Full */
